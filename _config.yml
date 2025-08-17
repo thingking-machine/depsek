@@ -16,7 +16,8 @@ machine:
   name: Thingking-Machine
   verb: Thingking
   instructions_file: thingking.txt
-  token: depsek.txt
+  token: depsek
+  server: https://localhost:443
   apiUrl: https://api.deepseek.com/chat/completions
 
 app:
